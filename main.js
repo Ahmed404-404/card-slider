@@ -7,9 +7,10 @@ let container = document.querySelector(".container"),
     possdiff;
 
 
+
 navBtns.forEach(ele=>{
     ele.addEventListener("click",()=>{
-        container.scrollLeft += ele.classList.contains("right")? cardWidth - 13 : -cardWidth - 13
+        container.scrollLeft += ele.classList.contains("right")? cardWidth - 0 : -cardWidth - 0
     });
 });
 
